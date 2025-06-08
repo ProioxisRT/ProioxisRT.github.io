@@ -94,6 +94,10 @@
     .video-container {
         flex-direction: column !important;
     }
+  .video-container video, 
+    .video-container div {
+        width: 100% !important;
+    }
 }
 
 
