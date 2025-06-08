@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e sfondo iniziale */
+body {
+    color: black;
+    font-family: sans-serif;
+    transition: background 0.5s, color 0.5s;
+}
+
+
+
+/* Sezioni normali */
+.intro, .outro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Container delle slide */
+
+.slides-container{
+    z-index: 100000000000000;
+}
+
+#double{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.big {
+    min-height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .big {
+        min-height: auto;  /* removes min-height on small screens */
+        max-width: 100%;   /* never exceeds container width */
+        height: auto;      /* maintains aspect ratio */
+    }
+}
+
+
+
+
+/* Singola slide */
+.slide {
+    /*scroll-snap-align: start;*/
+   /* height: 100vh;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+}
+
+
+
+/* Immagini grandi */
+.slide img {
+    width: 60%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Testo */
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text h2 {
+    font-size: 2rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
+
+/* Quando la slide è visibile */
+.slide.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+

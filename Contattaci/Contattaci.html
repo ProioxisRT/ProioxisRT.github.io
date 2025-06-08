@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+  
+
+
+<body>
+
+    <header id="main">
+        <section id="header">
+
+
+            <canvas id="canvas"></canvas>
+            <!-- <script src="../MnJs.js"></script>-->
+            <script src="mn.js"></script>
+            <style>
+              canvas{
+                background: linear-gradient(to right, #FF6A00, #c7a900);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+                box-shadow: 0px 8px 22px 3px #ffd9318e;
+              }
+              
+            </style>
+
+            <div id="sopra">
+
+                <div id="divLogo">
+                    <img id="logo" src="../img/wordmarksvg.svg" alt="Logo">
+                </div>
+
+
+
+                <div id="titoliHeader">
+                    <h1>Contacts</h1>
+                </div>
+        
+                <nav id="nav">
+                    <div class="navbar">
+
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>  
+                        
+                        <div class="menu-items">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../Chi siamo/chiSiamo.html">About us</a></li>
+                        <li><a href="../LavorareConNoi/Unisciti.html">Join Proioxis</a></li>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+
+        </div>
+
+        </section>
+    </header>
+
+
+    <main>
+
+
+        <section class="articles">
+            <!-- Primo articolo con immagine -->
+            <article class="Introduzione">
+                <div>
+                    <h2>Feel free to contact us for any information</h2>
+                     <p>
+                        Contact us on our social media or via email: <a class="link" href="https://mail.google.com/mail/?view=cm&to=ProioxisRT@gmail.com&su=Request%20Information&body=Hello, I would%20like%20more%20information." target="_blank" style="color: #b1891b;">ProioxisRT@gmail.com</a> for any inquiries.
+                     </p>
+                </div>
+            </article>
+
+        </section>
+
+
+
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+        </style>
+        
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <section id="link">
+        
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/share/18tbPaN9xa/" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span> - Facebook</span>
+                </a>
+              </li>
+        
+              
+
+              <li>
+                <a href="https://www.tiktok.com/@proioxis.rt" target="_blank">
+                    <i class="fa fa-tiktok" aria-hidden="true"></i>
+                    <span> - TikTok</span>
+                </a>
+            </li>
+            
+              
+        
+              <li>
+                <a href="https://www.instagram.com/proioxisrt/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span> - Instagram</span>
+                </a>
+              </li>
+        </section>
+        
+    <style>
+
+        @media (max-width: 600px) {
+            ul {
+                flex-direction: column; /* Imposta i pulsanti in verticale */
+                align-items: center; /* Centra gli elementi */
+            }
+
+            ul a {
+                margin-top: 50px; /* Aggiunge spazio tra i pulsanti */
+            }
+
+        }
+
+        
+        #link{
+            margin-top: 100px;
+            display: flex;
+            justify-content: center; /* Centra orizzontalmente */
+            align-items: center; /* Centra verticalmente */
+        }
+
+
+        
+        ul {
+          /*transform:translate(-50%, -50%);*/
+          display:flex;
+          margin:0;
+          padding:0;
+        }
+        
+        ul li {
+          list-style:none;
+          margin:0 5px;
+        }
+        
+        ul li a .fa {
+          font-size: 40px;
+          color: #262626;
+          line-height:80px;
+          transition: .5s;
+          padding-right: 14px;
+        }
+        
+        ul li a span {
+          padding:0;
+          margin:0;
+          position:absolute;
+          top: 30px;
+          color: #262626;
+          letter-spacing: 4px;
+          transition: .5s;
+        }
+        
+        ul li a {
+          text-decoration: none;
+          display:absolute;
+          display:block;
+          width:210px;
+          height:80px;
+          background: #fff;
+          text-align:left;
+          padding-left: 20px;
+          transform: rotate(-30deg) skew(25deg) translate(0,0);
+          transition:.5s;
+          box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+        }
+        ul li a:before {
+          content: '';
+          position: absolute;
+          top:10px;
+          left:-20px;
+          height:100%;
+          width:20px;
+          background: #b1b1b1;
+          transform: .5s;
+          transform: rotate(0deg) skewY(-45deg);
+        }
+        ul li a:after {
+          content: '';
+          position: absolute;
+          bottom:-20px;
+          left:-10px;
+          height:20px;
+          width:100%;
+          background: #b1b1b1;
+          transform: .5s;
+          transform: rotate(0deg) skewX(-45deg);
+        }
+        
+        ul li a:hover {
+          transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+          box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+        }
+        
+        ul li:hover .fa {
+          color:#fff;
+        }
+        
+        ul li:hover span {
+          color:#fff;
+        }
+        
+        ul li:hover:nth-child(1) a{
+          background: #3b5998;
+        }
+        ul li:hover:nth-child(1) a:before{
+          background: #365492;
+        }
+        ul li:hover:nth-child(1) a:after{
+          background: #4a69ad;
+        }
+        
+        ul li:hover:nth-child(2) a {
+            background: #0f0f0f; /* Grigio scuro invece di nero puro */
+        }
+        ul li:hover:nth-child(2) a:before {
+            background: #ff1f48; /* Rosso/rosa più tenue */
+        }
+        ul li:hover:nth-child(2) a:after {
+            background: #29bdbf; /* Azzurro più morbido */
+        }
+
+
+        
+        ul li:hover:nth-child(3) a {
+            background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+        }
+
+        ul li:hover:nth-child(3) a:before {
+            background: linear-gradient(90deg, #feda75, #fa7e1e);
+        }
+
+        ul li:hover:nth-child(3) a:after {
+            background: linear-gradient(90deg, #feda75, #962fbf);
+        }
+
+    </style>
+
+
+
+
+        <footer>
+            <div class="sponsor-container">
+
+                <div class="sponsor">
+                   <a target="_blank" href="https://www.performaitalia.it/"><img src="../LavorareConNoi/loghi/1.png" alt="Logo Azienda 1"></a>
+                </div>
+                <div class="sponsor">
+                   <a target="_blank" href="https://www.rdlsicurezza.it/"><img src="../LavorareConNoi/loghi/2.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://itmec.it/"><img src="../LavorareConNoi/loghi/3.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.siggigroup.it/"><img src="../LavorareConNoi/loghi/4.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.4type.it/"><img src="../LavorareConNoi/loghi/5.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.faizane.com/"><img src="../LavorareConNoi/loghi/6.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.plasticsolution.it/"><img src="../LavorareConNoi/loghi/7.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.spotpromo.it"><img src="../LavorareConNoi/loghi/8.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.elleditech.com"><img src="../LavorareConNoi/loghi/9.png" alt="Logo Azienda 1"></a>
+                </div>
+
+            </div>
+            <p class="footer-text">© 2025 F1 in schools - All rights reserved</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="../main.js"></script>
+
+</body>
+</html>
