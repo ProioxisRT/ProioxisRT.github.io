@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HomeStyle.css">
+    <link rel="stylesheet" href="../main.css">
+    <script src="script.js" defer></script>
+
+    <title>Home</title>
+</head>
+<body>
+
+    <header id="main">
+        <section id="header">
+
+
+            <canvas id="canvas"></canvas>
+            <script src="../MnJs.js"></script>
+
+            <style>
+                
+                canvas{
+                  /*background: rgba(10, 0, 30, 1);*/
+                  background: linear-gradient(to right, rgb(60, 38, 104), rgba(10, 0, 30, 1));
+                  box-shadow: 0px 8px 22px 3px rgba(10, 0, 30, 1);
+
+                }
+
+                #header{
+                    color: white;
+                }
+                .hamburger-lines .line{
+                    background: white !important;
+                }
+              </style>
+
+            <div id="sopra">
+
+                <div id="divLogo">
+                    <img id="logo" src="../img/wordmarksvg.svg" alt="Logo">
+                </div>
+
+
+
+                <div id="titoliHeader">
+                    <h1>Welcome to the official site of Proioxis</h1>
+                </div>
+        
+                <nav id="nav">
+                    <div class="navbar">
+
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>  
+                        
+                        <div class="menu-items">
+                        <li><a href="../Chi siamo/chiSiamo.html">About us</a></li>
+                        <li><a href="../Contattaci/Contattaci.html">Contacts</a></li>
+                        <li><a href="../LavorareConNoi/Unisciti.html">Join Proioxis</a></li>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+
+        </div>
+
+        </section>
+    </header>
+
+    <main>
+        <section class="articles">
+            <!-- Primo articolo con immagine -->
+            <article class="Introduzione">
+                <img src="img/Screenshot 2025-06-07 164620.png" alt="Team">
+                <div>
+                    <h2>Proioxis</h2>
+                    <p>
+                        We are Proioxis — and This Comeback is Personal.
+                        We’ve faced challenges, learned from every fall, and now we’re back with purpose.
+                        Driven by passion and unity, we turn setbacks into strength and goals into reality.
+                        This isn’t just a race — it’s our story of resilience, written with every step forward.
+                    </p>
+                </div>
+            </article>
+    
+            <!-- Sfondo nero che appare sul video -->
+            <div class="bg-overlay"></div>
+    
+            <!-- Secondo articolo con video e testo -->
+            <article class="video-container">
+                <video id="mioVideo" src="img/video1.mp4" autoplay loop muted ></video>
+                <div class="video-text">
+                    <h2>What Is F1 in Schools?</h2>
+                    <p>
+                        F1 in Schools is a multidisciplinary challenge where student teams collaborate to design, develop, and race a miniature Formula 1 car powered by compressed air.
+                        Each team, made up of 3 to 6 students, takes on the full experience of running a Formula 1 team — from creating a unique identity and brand, to developing a communication strategy, business plan, and engineering their race car for competition.
+                        At stake is the incredible opportunity to represent Italy at the F1 in Schools World Finals.
+
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="Introduzione">
+                <div>
+                    <h2>Driven to win</h2>
+                    <p>
+                        This year, we are proud to have reached an important milestone by winning first place at the Triveneto Regional Championship Final A on May 11, 2025. This achievement has secured our place in the next stages of the competition. Motivated by this success, we continue to work with passion and determination toward our goal: winning the national finals.
+                    </p>
+                </div>
+                <img src="img/podio.png" alt="Team">
+            </article>
+
+        </section>
+
+
+        <footer>
+            <div class="sponsor-container">
+
+                <div class="sponsor">
+                   <a target="_blank" href="https://www.performaitalia.it/"><img src="../LavorareConNoi/loghi/1.png" alt="Logo Azienda 1"></a>
+                </div>
+                <div class="sponsor">
+                   <a target="_blank" href="https://www.rdlsicurezza.it/"><img src="../LavorareConNoi/loghi/2.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://itmec.it/"><img src="../LavorareConNoi/loghi/3.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.siggigroup.it/"><img src="../LavorareConNoi/loghi/4.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.4type.it/"><img src="../LavorareConNoi/loghi/5.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.faizane.com/"><img src="../LavorareConNoi/loghi/6.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.plasticsolution.it/"><img src="../LavorareConNoi/loghi/7.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.spotpromo.it"><img src="../LavorareConNoi/loghi/8.png" alt="Logo Azienda 1"></a>
+                </div>
+                                <div class="sponsor">
+                   <a target="_blank" href="https://www.elleditech.com"><img src="../LavorareConNoi/loghi/9.png" alt="Logo Azienda 1"></a>
+                </div>
+
+            </div>
+            <p class="footer-text">© 2025 F1 in schools - All rights reserved</p>
+        </footer>
+        
+    </main>
+    
+
+</body>
+</html>
+
