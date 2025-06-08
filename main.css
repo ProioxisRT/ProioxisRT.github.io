@@ -298,6 +298,12 @@
     z-index: 1001;
 }
 
+@media (max-width: 770px) {
+    .Introduzione {
+        flex-direction: column !important;
+    }
+}
+
 /* Transizione separata per l'immagine */
 .Introduzione img {
     width: 45%;
