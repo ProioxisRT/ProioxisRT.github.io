@@ -90,6 +90,12 @@
   pointer-events: auto !important;
 }
 
+@media (max-width: 770px) {
+    .video-container {
+        flex-direction: column !important;
+    }
+}
+
 
 
 
