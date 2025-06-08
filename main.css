@@ -302,6 +302,10 @@
     .Introduzione {
         flex-direction: column !important;
     }
+	.Introduzione img, 
+    .Introduzione div {
+      width: 100% !important;
+  }
 }
 
 /* Transizione separata per l'immagine */
